@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Array Cardio 💪</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Array Cardio!</h1>
+      <h3>Array Inventors (sort, reduce, map, filter)</h3>
+
+      <div>
+        <div class="accordion-item" onclick="toggleAccordionItem(1)">
+          <div class="accordion-header">
+            1. Filtre a lista de inventores para aqueles que nasceram nos anos
+            1500
+          </div>
+          <div class="accordion-content">
+            <table id="resultTable" class="table">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Sobrenome</th>
+                  <th>Nascimento</th>
+                  <th>Falecimento</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="accordion-item" onclick="toggleAccordionItem(2)">
+          <div class="accordion-header">
+            2. Array que contém nome e sobrenome dos inventores
+          </div>
+          <div class="accordion-content">
+            <table id="firstLastTable" class="table">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Sobrenome</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="accordion-item" onclick="toggleAccordionItem(3)">
+          <div class="accordion-header">
+            3. Organize a lista de inventores pela data de nascimento, do mais
+            velho para o mais novo
+          </div>
+          <div class="accordion-content">
+            <table id="sortTable" class="table">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Sobrenome</th>
+                  <th>Nascimento</th>
+                  <th>Falecimento</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="accordion-item" onclick="toggleAccordionItem(4)">
+          <div class="accordion-header">
+            4. Qual a somatória dos anos que os inventores viveram?
+          </div>
+          <div class="accordion-content">
+            <table id="reduceTable" class="table">
+              <thead>
+                <tr>
+                  <th>Total de Anos</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="accordion-item" onclick="toggleAccordionItem(5)">
+          <div class="accordion-header">
+            5. Organize os inventores pelos anos vividos.
+          </div>
+          <div class="accordion-content">
+            <table id="sortTable2" class="table">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Sobrenome</th>
+                  <th>Nascimento</th>
+                  <th>Falecimento</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

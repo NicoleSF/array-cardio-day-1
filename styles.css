@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:#f1f1f1;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 15px;
+  background-color: #add8e6;
+  border-radius: 10px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.table td, .table th{
+  border: 1px solid  #A9A9A9;
+  padding: 8px;
+}
+
+.table th{
+  background-color: #A9A9A9;
+}
+
+.table tr{
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
